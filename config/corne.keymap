@@ -49,10 +49,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE  &kp Q                &kp W            &kp E            &kp R  &kp T         &kp Y      &kp U  &kp I             &kp O             &kp P                         &kp BSPC
-&kp LCTRL   &HML LEFT_CONTROL A  &HML LEFT_ALT S  &HML LEFT_WIN D  &kp F  &kp G         &kp H      &kp J  &HMR RIGHT_WIN K  &HMR RIGHT_ALT L  &HMR RIGHT_CONTROL SEMICOLON  &kp SQT
-&kp LSHFT   &kp Z                &kp X            &kp C            &kp V  &kp B         &kp N      &kp M  &kp COMMA         &kp DOT           &kp FSLH                      &kp TAB
-                                                  &kp LGUI         &mo 1  &kp RETURN    &kp SPACE  &mo 2  &kp RALT
+&kp ESCAPE      &kp Q                &kp W            &kp E            &kp R  &kp T         &kp Y      &kp U  &kp I             &kp O             &kp P                         &kp BSPC
+&kp LEFT_SHIFT  &HML LEFT_CONTROL A  &HML LEFT_ALT S  &HML LEFT_WIN D  &kp F  &kp G         &kp H      &kp J  &HMR RIGHT_WIN K  &HMR RIGHT_ALT L  &HMR RIGHT_CONTROL SEMICOLON  &kp SQT
+&kp BACKSLASH   &kp Z                &kp X            &kp C            &kp V  &kp B         &kp N      &kp M  &kp COMMA         &kp DOT           &kp FSLH                      &kp TAB
+                                                      &kp LGUI         &mo 1  &kp RETURN    &kp SPACE  &mo 2  &kp RALT
             >;
         };
 
@@ -64,10 +64,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp KP_MULTIPLY  &kp MINUS      &kp N7        &kp N8        &kp N9        &kp PLUS      &kp INSERT  &kp PAGE_UP    &kp PRINTSCREEN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE
-&kp SLASH        &kp BACKSPACE  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp RETURN    &kp HOME    &kp PAGE_DOWN  &kp SCROLLLOCK   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR
-&kp BACKSLASH    &kp N0         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp DELETE  &kp END        &kp PAUSE_BREAK  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_ALT
-                                              &kp LGUI      &trans        &kp RET       &kp SPACE   &trans         &kp RALT
+&kp KP_MULTIPLY  &kp MINUS      &mt AMPS N7          &mt ASTRK N8     &mt LEFT_PARENTHESIS N9  &kp PLUS      &kp INSERT  &kp PAGE_UP    &kp PRINTSCREEN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt TILDE GRAVE
+&kp SLASH        &kp BACKSPACE  &mt DOLLAR NUMBER_4  &mt PERCENT N5   &mt CARET NUMBER_6       &kp RETURN    &kp HOME    &kp PAGE_DOWN  &kp SCROLLLOCK   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR
+&kp BACKSLASH    &kp N0         &mt EXCL NUMBER_1    &mt AT NUMBER_2  &mt HASH NUMBER_3        &kp PERIOD    &kp DELETE  &kp END        &kp PAUSE_BREAK  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_ALT
+                                                     &kp LGUI         &trans                   &kp RET       &kp SPACE   &trans         &kp RALT
             >;
         };
 
