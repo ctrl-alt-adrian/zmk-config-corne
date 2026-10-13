@@ -54,6 +54,7 @@
         systemLayer {
             bindings = <&mo 3>;
             key-positions = <37 40>;
+            layers = <3>;
         };
     };
 
