@@ -83,10 +83,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp KP_MULTIPLY  &kp MINUS      &mt AMPS N7          &mt ASTRK N8     &mt LEFT_PARENTHESIS N9  &kp PLUS      &kp MINUS  &kp GRAVE    &kp TILDE      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
-&kp SLASH        &kp BACKSPACE  &mt DOLLAR NUMBER_4  &mt PERCENT N5   &mt CARET NUMBER_6       &kp RETURN    &kp UNDER  &kp PAGE_UP  &kp PAGE_DOWN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR
-&kp BACKSLASH    &kp N0         &mt EXCL NUMBER_1    &mt AT NUMBER_2  &mt HASH NUMBER_3        &kp PERIOD    &none      &kp HOME     &kp END        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
-                                                     &kp LGUI         &trans                   &kp RET       &kp SPACE  &trans       &none
+&kp KP_MULTIPLY  &kp MINUS    &mt AMPS N7          &mt ASTRK N8     &mt LEFT_PARENTHESIS N9  &kp PLUS      &kp MINUS  &kp GRAVE    &kp TILDE      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+&kp SLASH        &kp PERCENT  &mt DOLLAR NUMBER_4  &mt PERCENT N5   &mt CARET NUMBER_6       &kp RETURN    &kp UNDER  &kp PAGE_UP  &kp PAGE_DOWN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR
+&kp BACKSLASH    &kp N0       &mt EXCL NUMBER_1    &mt AT NUMBER_2  &mt HASH NUMBER_3        &kp PERIOD    &none      &kp HOME     &kp END        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
+                                                   &kp LGUI         &trans                   &kp RET       &kp SPACE  &trans       &none
             >;
         };
 
@@ -107,10 +107,10 @@
 
         system {
             bindings = <
-&kp C_POWER    &trans  &trans  &trans  &kp PRINTSCREEN  &kp C_AL_CALCULATOR    &kp C_AL_MY_COMPUTER   &kp INS   &kp SCROLLLOCK   &none         &trans        &kp C_AL_KEYBOARD_LAYOUT
-&kp C_RESET    &trans  &trans  &trans  &kp C_AC_PRINT   &kp C_AL_EMAIL         &kp C_AL_FILE_BROWSER  &kp HOME  &kp END          &trans        &trans        &trans
-&kp C_AL_LOCK  &trans  &trans  &trans  &trans           &kp C_AL_CALENDAR      &kp C_AL_DOCUMENTS     &kp DEL   &kp PAUSE_BREAK  &out OUT_BLE  &out OUT_USB  &out OUT_TOG
-                               &trans  &trans           &trans                 &trans                 &trans    &trans
+&kp K_POWER        &trans  &trans  &trans  &kp PRINTSCREEN  &kp C_AL_CALCULATOR    &kp C_AL_MY_COMPUTER   &kp INS   &kp SCROLLLOCK   &none         &trans        &kp C_AL_KEYBOARD_LAYOUT
+&kp C_RESET        &trans  &trans  &trans  &kp C_AC_PRINT   &kp C_AL_EMAIL         &kp C_AL_FILE_BROWSER  &kp HOME  &kp END          &trans        &trans        &trans
+&kp K_SCREENSAVER  &trans  &trans  &trans  &trans           &kp C_AL_CALENDAR      &kp C_AL_DOCUMENTS     &kp DEL   &kp PAUSE_BREAK  &out OUT_BLE  &out OUT_USB  &out OUT_TOG
+                                   &trans  &trans           &trans                 &trans                 &trans    &trans
             >;
         };
     };
